@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="510dip"
+    android:layout_marginTop="10dip"
+    android:background="@drawable/loop2"
+    >
+
+    <EditText
+        android:id="@+id/et_un"
+        android:layout_width="250dip"
+        android:layout_height="50dip"
+        android:layout_marginTop="140dip"
+        android:layout_marginLeft="33dip"
+        android:background="@android:drawable/editbox_background"
+        android:layout_alignParentLeft="true"
+        android:inputType="text" 
+        android:text="User Name"/>
+
+   
+    <EditText
+        android:id="@+id/et_pw"
+        android:layout_width="250dip"
+        android:layout_height="50dip"
+        android:layout_marginLeft="33dip"
+        android:layout_alignParentLeft="true"
+        android:background="@android:drawable/editbox_background"
+        android:layout_below="@id/et_un"
+        android:layout_marginTop="20dip"
+        android:inputType="textPassword"
+        android:text="User Name"/>"
+        
+     <Button
+        android:id="@+id/btn_login"
+        android:layout_width="249dip"
+        android:layout_height="50dip"
+        android:layout_below="@id/et_pw"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dip"
+        android:layout_marginTop="15dip"
+        android:textColor="#fbfbfb"
+        android:background="#3b5998"
+        android:text="Login" 
+        android:onClick="changeMenu" 
+        />
+         
+         
+    
+
+</RelativeLayout>

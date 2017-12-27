@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="510dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/loop2"
+    android:orientation="vertical"
+     >
+     
+    
+    <ImageButton
+        android:id="@+id/earthquakeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/earthquake_button" 
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"/>   
+        <TextView
+            android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EARTHQUAKE"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_gravity="center" />
+  
+
+    <ImageButton
+        android:id="@+id/tsunamiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tsunami_button" 
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"/>
+
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TSUNAMI"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/volcanoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/volcano_button"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"
+             />
+        <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLCANO"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:layout_gravity="center"/>
+    
+
+
+
+    
+
+</LinearLayout>
